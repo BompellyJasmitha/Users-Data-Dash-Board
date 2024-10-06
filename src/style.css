@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#backgroundDiv {
+    width: 100%;
+    height: 100vh;
+    background: radial-gradient(rgba(188, 124, 4, 0.196), rgba(255, 166, 0, 0.207), rgba(235, 174, 61, 0.633)), url("https://img.freepik.com/free-vector/gradient-geometric-shapes-dark-background_23-2148423542.jpg?w=1060&t=st=1727871716~exp=1727872316~hmac=73c369f4d7e98b5ff7e4264d493bfc2d67ef5e012908409b204572b0c911c5ea") no-repeat center/cover;
+    filter: blur(3px);
+    position: fixed;
+    z-index: -1;
+}
+
+#userpageDiv {
+    background-color: rgba(231, 149, 42, 0.579);
+    filter: brightness(1.1);
+    width: 1000px;
+    max-height: 200vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 30px;
+    left: 200px;
+    border-radius: 10px;
+    padding: 10px 0px 50px 0px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); }
+
+table {
+    width: 900px;
+    max-height: 200vh;
+    border-radius: 6px;
+    border: 5px solid antiquewhite;
+    padding: 5px 10px;
+}
+
+table caption {
+    font-size: 30px;
+    color: antiquewhite;
+    font-weight: 600;
+}
+
+table button {
+    width: 120px;
+    height: 30px;
+    margin: 20px;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(145, 96, 5);
+    border-radius: 7px;
+    border: none;
+}
+
+table button:hover {
+    background-color: rgb(145, 96, 5);
+    color: antiquewhite;
+    border: 2px solid antiquewhite;
+}
+
+table th {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 9px 10px;
+    color: rgb(145, 96, 5);
+    background-color: antiquewhite;
+}
+
+/* Form styles */
+form {
+    width: 400px;
+    height: 500px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    box-shadow: 2px 2px 7px orange;
+    position: relative;
+    left: 500px;
+    top: 100px;
+    padding: 20px 8px;
+}
+
+form fieldset {
+    width: 350px;
+    margin: 0px 20px;
+    border-radius: 10px;
+    height: 400px;
+}
+
+fieldset input {
+    width: 300px;
+    height: 38px;
+    padding: 10px 20px;
+    margin: 15px 18px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid rgb(77, 64, 41);
+    color: #403328;
+}
+
+fieldset input[type="submit"] {
+    width: 300px;
+    height: 38px;
+    padding: 10px 20px;
+    margin: 15px 18px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 6px;
+    background-color: rgb(181, 117, 22);
+    color: antiquewhite;
+}
+
+/* Notification Styles */
+.notification {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: rgba(33, 59, 3, 0.8);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    text-align: center;
+    position: relative; /* Adjust if needed */
+    z-index: 1; /* Ensure it appears above the background */
+}
